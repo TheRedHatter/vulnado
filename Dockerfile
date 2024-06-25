@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:24-ea-3-jdk-oraclelinux9
 
 RUN apt-get update && \
     apt-get install build-essential maven default-jdk cowsay netcat -y && \
